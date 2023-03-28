@@ -1,2 +1,1 @@
-## Algorithm
----
+## Data Structure
