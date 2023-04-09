@@ -1,4 +1,3 @@
-###선택 정렬 알고리즘
 삽입 정렬(insertion sort) 알고리즘 개념 요약  
 손안의 카드를 정렬하는 방법과 유사하다.  
 새로운 카드를 기존의 정렬된 카드 사이의 올바른 자리를 찾아 삽입한다.  
@@ -78,6 +77,3 @@ Worst T(n) = O(n^2)
 참고자료  
 https://gmlwjd9405.github.io/2018/05/06/algorithm-insertion-sort.html  
 
-
-관련 영상
-https://www.youtube.com/watch?v=fIe7gdgMvMU
