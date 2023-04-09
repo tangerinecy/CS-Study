@@ -25,7 +25,8 @@ n-1, n-2, … , 2, 1 번 = n(n-1)/2
 T(n) = O(n^2)  
 
 ###코드
-```# include <stdio.h>
+```
+# include <stdio.h>
 # define MAX_SIZE 5
 
 // 버블 정렬
