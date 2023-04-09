@@ -56,7 +56,6 @@ void main(){
 ```
 
 
-### 관련 영상
+### 관련 자료 
 https://www.youtube.com/watch?v=fxuhgRRqYsY  
-  
 https://gmlwjd9405.github.io/2018/05/06/algorithm-bubble-sort.html    
