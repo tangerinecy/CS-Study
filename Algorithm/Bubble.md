@@ -24,6 +24,43 @@ n-1, n-2, … , 2, 1 번 = n(n-1)/2
 입력 자료가 이미 정렬되어 있는 최상의 경우, 자료의 이동이 발생하지 않는다.  
 T(n) = O(n^2)  
 
+###코드
+```# include <stdio.h>
+# define MAX_SIZE 5
+
+// 버블 정렬
+void bubble_sort(int list[], int n){
+  int i, j, temp;
+
+  for(i=n-1; i>0; i--){
+    // 0 ~ (i-1)까지 반복
+    for(j=0; j<i; j++){
+      // j번째와 j+1번째의 요소가 크기 순이 아니면 교환
+      if(list[j]<list[j+1]){
+        temp = list[j];
+        list[j] = list[j+1];
+        list[j+1] = temp;
+      }
+    }
+  }
+}
+
+void main(){
+  int i;
+  int n = MAX_SIZE;
+  int list[n] = {7, 4, 5, 1, 3};
+
+  // 버블 정렬 수행
+  bubble_sort(list, n);
+
+  // 정렬 결과 출력
+  for(i=0; i<n; i++){
+    printf("%d\n", list[i]);
+  }
+}
+```
+
+
 ###관련 영상
 [https://gmlwjd9405.github.io/2018/05/06/algorithm-bubble-sort.html](https://www.youtube.com/watch?v=fxuhgRRqYsY)  
   
