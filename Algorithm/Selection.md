@@ -11,5 +11,43 @@
 자료가 삽입될 위치를 찾았다면 그 위치에 자료를 삽입하기 위해 자료를 한 칸씩 뒤로 이동시킨다.  
 처음 Key 값은 두 번째 자료부터 시작한다.  
 
+```
+# include <stdio.h>
+# define MAX_SIZE 5
+
+// 삽입 정렬
+void insertion_sort(int list[], int n){
+  int i, j, key;
+
+  // 인텍스 0은 이미 정렬된 것으로 볼 수 있다.
+  for(i=1; i<n; i++){
+    key = list[i]; // 현재 삽입될 숫자인 i번째 정수를 key 변수로 복사
+
+    // 현재 정렬된 배열은 i-1까지이므로 i-1번째부터 역순으로 조사한다.
+    // j 값은 음수가 아니어야 되고
+    // key 값보다 정렬된 배열에 있는 값이 크면 j번째를 j+1번째로 이동
+    for(j=i-1; j>=0 && list[j]>key; j--){
+      list[j+1] = list[j]; // 레코드의 오른쪽으로 이동
+    }
+
+    list[j+1] = key;
+  }
+}
+
+void main(){
+  int i;
+  int n = MAX_SIZE;
+  int list[n] = {8, 5, 6, 2, 4};
+
+  // 삽입 정렬 수행
+  insertion_sort(list, n);
+
+  // 정렬 결과 출력
+  for(i=0; i<n; i++){
+    printf("%d\n", list[i]);
+  }
+}
+```
+
 참고자료  
 https://gmlwjd9405.github.io/2018/05/06/algorithm-insertion-sort.html  
