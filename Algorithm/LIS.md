@@ -16,10 +16,6 @@ Binary Search 이용: O(NlogN)
 
 - DP 이용
 
-![[https://4legs-study.tistory.com/106](https://4legs-study.tistory.com/106)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/94349218-f771-4086-845c-557de8065293/Untitled.png)
-
-[https://4legs-study.tistory.com/106](https://4legs-study.tistory.com/106)
-
 ```python
 arr = [] #주어진 배열
 dp = [1 for i in range(len(arr))] #배열의 각 원소까지 가능한 최장증가부분수열의 크기를 정의함
@@ -33,23 +29,6 @@ print(max(dp))
 ```
 
 - Binary Search 이용
-그림 출처: https://4legs-study.tistory.com/106 
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f4383d1a-1291-4ad1-a23d-c2a76792dd60/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/83dac057-9cf3-48ed-94d0-d0bee7c5401f/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a69af9ac-a1cc-4134-9d21-098a3cafcff9/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/67d1c548-6e30-4b70-8b9e-05e94d31e10a/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cc7c5926-bf74-449d-962b-eeed8d42a04b/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e01d8c7-19cd-4d72-bdf7-7e301dc8361e/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/799ef20f-a7b7-4357-8147-6f8fe3d66c77/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/315fd2af-6e60-4f0e-bb27-16845664da5b/Untitled.png)
 
 ```python
 import bisect
