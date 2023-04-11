@@ -5,6 +5,11 @@
 [선택 정렬](Selection.md)  
 [삽입 정렬](Insertion.md)  
 
+### 민재
+[퀵 정렬](QuickSort.md)  
+[병합 정렬](MergeSort.md)  
+[힙 정렬](HeapSort.md)  
+
 ### 채영
 [DFS, 깊이 우선 탐색](DFS.md)  
 [BFS, 넓이 우선 탐색](BFS.md)  
