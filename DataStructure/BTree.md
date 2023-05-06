@@ -1,4 +1,4 @@
-B-Tree & B+Tree
+###B-Tree & B+Tree
 
 1. B-Tree
 - 하나의 노드에 많은 정보를 가질 수 있음
