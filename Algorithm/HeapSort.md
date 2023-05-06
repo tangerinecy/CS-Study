@@ -17,12 +17,13 @@
 
 > ### 기본 원리와 동작 예시
 - 최대 힙을 구성
-![image](https://user-images.githubusercontent.com/76865900/231248077-4e9adc8c-cebd-44bb-9677-95b1661d410e.png)
+![image](https://user-images.githubusercontent.com/76865900/236623441-6fb96e39-2146-4e6a-993f-c4014c138e4f.png)
+![image](https://user-images.githubusercontent.com/76865900/236623478-ab444dcf-2561-4987-b873-bdf1f8036b09.png)
 
-- 루트를 힙의 마지막 원소와 교환한다.
-- 마지막 원소를 제외하고 나머지 원소에 대해서 반복한다.
+- 최대 힙을 구성
+- 현재 힙 루트는 가장 큰 값이 존재함. 루트를 힙의 마지막 원소와 교환, 힙의 사이즈 하나 줄임
+- 힙의 사이즈가 1보다 크면 위 과정 반복
 - 정렬된 원소를 제외하고 최대 힙에 원소가 1개 남으면 정렬을 종료한다.
-
 
 > ### 소스 코드 (Python)
 - 일반적인 방식
@@ -84,6 +85,7 @@ heap_sort(array)
 - 윤성우의 열혈 자료 구조
 - https://good-potato.tistory.com/m/50
 - https://seanpark11.tistory.com/68 (소스 코드 출처)
+- https://gyoogle.dev/blog/algorithm/Heap%20Sort.html
 ### 그 외 추천 자료
 - https://ratsgo.github.io/data%20structure&algorithm/2017/09/27/heapsort/
 - https://deok2kim.tistory.com/178
