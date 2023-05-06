@@ -69,6 +69,6 @@ n(n-1)/2 + 2(n-1) = (n^2+3n-4)/2 = O(n^2)
 Worst T(n) = O(n^2)  
 
 ### 참고자료  
-https://www.youtube.com/watch?v=fIe7gdgMvMU
+https://www.youtube.com/watch?v=fIe7gdgMvMU  
 https://gmlwjd9405.github.io/2018/05/06/algorithm-insertion-sort.html  
 
