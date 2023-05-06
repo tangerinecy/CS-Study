@@ -1,6 +1,9 @@
-### 선택 정렬(selection sort) 알고리즘 개념
+## 선택 정렬(selection sort) 알고리즘
 입력된 배열 이외에 다른 추가 메모리를 요구하지 않는 정렬 방법
 원소를 넣을 위치를 선택한 후 해당 위치에 넣을 원소를 선택하는 알고리즘
+
+![image](https://user-images.githubusercontent.com/76094329/236625512-1d077e58-0bd9-4174-b7ce-f44d419cffca.png)  
+
 
 ### 정렬 과정
 주어진 배열 중에서 최솟값을 찾는다.
@@ -66,5 +69,5 @@ void main(){
 T(n) = (n-1) + (n-2) + … + 2 + 1 = n(n-1)/2 = O(n^2)
 
 참고자료  
-https://www.youtube.com/watch?v=yXE9kFLHSOs  
+https://www.youtube.com/watch?v=yXE9kFLHSOs   
 https://gmlwjd9405.github.io/2018/05/06/algorithm-selection-sort.html
