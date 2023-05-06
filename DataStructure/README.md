@@ -1,5 +1,5 @@
 ## Data Structure
 
 ### 수빈
-[Arrat](Array.md)  
+[Array](Array.md)  
 [LinkedList](LinkedList.md)  
