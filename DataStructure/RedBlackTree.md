@@ -7,7 +7,7 @@
 
 </aside>
 
-![img.png](img.png)
+![image](https://user-images.githubusercontent.com/68195241/236626074-6322c6f7-f7d9-4948-a549-4e666c59a989.png)
 
 - 모든 노드는 `**RED**` or **`BLACK`**
 - 루트 노드 = `**BLACK**`
@@ -17,3 +17,5 @@
 - BST의 worse-case 시 단점 개선 → 모든 경우에 O(logN)
 
 [Red/Black Tree Visualization](https://www.cs.usfca.edu/~galles/visualization/RedBlack.html)
+
+[참고하면 좋은 자료](https://code-lab1.tistory.com/62?category=1213002)
