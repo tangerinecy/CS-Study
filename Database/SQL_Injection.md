@@ -60,6 +60,7 @@ prepareStatement를 사용하면, 사용자의 input 값이 쿼리와 별도로 
 서버는 쿼리 템플릿이 모두 분석된 이후 실행 시점에서 사용자 입력값을 사용한다. 바인딩된 매개변수는 쿼리 문자열로 삽입되지 않으므로 escape할 필요가 없다.  
 SELECT 처리 과정:  
 ![image](https://user-images.githubusercontent.com/111646902/241371927-eac157ee-ad4e-4953-8d05-20abc8fedb6e.png)  
+[사진 출처](https://blog.naver.com/skinfosec2000/220482240245)  
 일반적인 Statement를 사용할 경우 parse부터의 모든 과정을 수행한다.  
 Prepared Statement를 사용할 경우 parse 과정을 최초 1번만 수행하고 이후에는 생략한다. parse 과정을 모두 거친 후에 생성된 결과는 메모리 어딘가에 저장 해두고 필요할 때마다 사용한다.  
 사용자로부터의 입력값인 바인딩 데이터는 SQL 문법이 아닌 내부의 인터프리터나 컴파일 언어로 처리하기 때문에 문법적인 의미를 가질 수 없다. 따라서 쿼리로 실행되지 않는다.  
